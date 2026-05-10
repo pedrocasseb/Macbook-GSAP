@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import ProductViwer from "./components/ProductViewer";
 import gsap from "gsap";
 import Showcase from "./components/Showcase";
+import Performance from "./components/Performance";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,6 +15,7 @@ function App() {
             <Hero />
             <ProductViwer />
             <Showcase />
+            <Performance />
         </>
     );
 }
